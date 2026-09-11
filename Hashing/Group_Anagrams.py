@@ -1,4 +1,4 @@
-class Solution:
+class Solution:    # main idea:两个字符串如果排序后相同，就是异位词。
     def groupAnagrams(self, strs):
         groups = {}   # 创建字典
 
